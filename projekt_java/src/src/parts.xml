@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<czesci>
+    <czesc>
+        <id>1</id>
+        <nazwa>Olej 5W30</nazwa>
+        <numer_katalogowy>OLJ5W30-001</numer_katalogowy>
+        <cena>120</cena>
+    </czesc>
+    <czesc>
+        <id>2</id>
+        <nazwa>Olej 10W40</nazwa>
+        <numer_katalogowy>OLJ10W40-002</numer_katalogowy>
+        <cena>110</cena>
+    </czesc>
+    <czesc>
+        <id>3</id>
+        <nazwa>Filtr oleju</nazwa>
+        <numer_katalogowy>FILTROL-003</numer_katalogowy>
+        <cena>45</cena>
+    </czesc>
+    <czesc>
+        <id>4</id>
+        <nazwa>Filtr kabinowy</nazwa>
+        <numer_katalogowy>FILTKAB-004</numer_katalogowy>
+        <cena>60</cena>
+    </czesc>
+    <czesc>
+        <id>5</id>
+        <nazwa>Filtr powietrza</nazwa>
+        <numer_katalogowy>FILTPOW-005</numer_katalogowy>
+        <cena>55</cena>
+    </czesc>
+    <czesc>
+        <id>6</id>
+        <nazwa>Świeca zapłonowa</nazwa>
+        <numer_katalogowy>SWCZAP-006</numer_katalogowy>
+        <cena>30</cena>
+    </czesc>
+    <czesc>
+        <id>7</id>
+        <nazwa>Klocki hamulcowe</nazwa>
+        <numer_katalogowy>KLOCKHAM-007</numer_katalogowy>
+        <cena>150</cena>
+    </czesc>
+    <czesc>
+        <id>8</id>
+        <nazwa>Tarcza hamulcowa</nazwa>
+        <numer_katalogowy>TARCZAHAM-008</numer_katalogowy>
+        <cena>200</cena>
+    </czesc>
+    <czesc>
+        <id>9</id>
+        <nazwa>Amortyzator przód</nazwa>
+        <numer_katalogowy>AMORTPRZ-009</numer_katalogowy>
+        <cena>350</cena>
+    </czesc>
+    <czesc>
+        <id>10</id>
+        <nazwa>Akumulator 12V</nazwa>
+        <numer_katalogowy>AKUM12V-010</numer_katalogowy>
+        <cena>400</cena>
+    </czesc>
+</czesci>

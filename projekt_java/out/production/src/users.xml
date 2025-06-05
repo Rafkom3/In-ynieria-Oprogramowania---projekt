@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <username>klient</username>
+        <password>klient</password>
+        <role>CLIENT</role>
+    </user>
+    <user>
+        <username>sprzedawca</username>
+        <password>sprzedawca</password>
+        <role>SELLER</role>
+    </user>
+    <user>
+        <username>magazynier</username>
+        <password>magazynier</password>
+        <role>WAREHOUSE</role>
+    </user>
+</users>
