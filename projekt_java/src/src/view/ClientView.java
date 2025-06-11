@@ -25,6 +25,6 @@ public class ClientView {
     }
 
     public void showPlaceholder(String actionName) {
-        System.out.println("[CLIENT] Wybrałeś: " + actionName + ". (Opcja w budowie)");
+        System.out.println("[CLIENT] Wybrałeś: " + actionName + ".");
     }
 }

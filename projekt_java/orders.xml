@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<orders>
+  <order>
+    <orderId>18E3C1E4</orderId>
+    <partName>Akumulator 500W</partName>
+    <quantity>3</quantity>
+    <orderDate>2025-06-11 22:15</orderDate>
+    <supplier>Inpost</supplier>
+    <status>złożone</status>
+  </order>
+</orders>

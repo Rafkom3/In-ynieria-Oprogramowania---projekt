@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<visits>
+        
+  
+  
+  <visit>
+                
+    
+    
+    <username>klient</username>
+                
+    
+    
+    <serviceType>Przegląd</serviceType>
+                
+    
+    
+    <dateTime>2025-06-15 12:30</dateTime>
+                
+    
+    
+    <contactInfo>123456789</contactInfo>
+                
+    
+    
+    <notes/>
+                
+    
+    
+    <status>oczekująca</status>
+              
+  
+  
+  </visit>
+      
+  
+  
+  <visit>
+            
+    
+    <username>klient</username>
+            
+    
+    <serviceType>Zakup części</serviceType>
+            
+    
+    <dateTime>2025-06-16 13:00</dateTime>
+            
+    
+    <contactInfo>email@wp.pl</contactInfo>
+            
+    
+    <notes/>
+            
+    
+    <status>oczekująca</status>
+          
+  
+  </visit>
+    
+  
+  <visit>
+        
+    <username>klient</username>
+        
+    <serviceType>Diagnostyka</serviceType>
+        
+    <dateTime>2025-06-10 14:30</dateTime>
+        
+    <contactInfo>123456789</contactInfo>
+        
+    <notes/>
+        
+    <status>oczekująca</status>
+      
+  </visit>
+  
+  <visit>
+    <username>klient</username>
+    <serviceType>Rezerwacja serwisu</serviceType>
+    <dateTime>2025-06-17 11:30</dateTime>
+    <contactInfo>123456789</contactInfo>
+    <notes/>
+    <status>oczekująca</status>
+  </visit>
+</visits>
