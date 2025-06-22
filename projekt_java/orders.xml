@@ -8,4 +8,12 @@
     <supplier>Inpost</supplier>
     <status>złożone</status>
   </order>
+<order>
+    <orderId>6B98B794</orderId>
+    <partName>czerpak</partName>
+    <quantity>5</quantity>
+    <orderDate>2025-06-12 10:24</orderDate>
+    <supplier>glovo</supplier>
+    <status>złożone</status>
+  </order>
 </orders>

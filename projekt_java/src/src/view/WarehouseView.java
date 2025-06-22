@@ -12,10 +12,9 @@ public class WarehouseView {
     public int showMenuAndPrompt() {
         System.out.println("\n--- MENU MAGAZYNIERA ---");
         System.out.println("1. Sprawdź magazyn");
-        System.out.println("2. Wybierz część");
-        System.out.println("3. Przyjęcie wizyty");
-        System.out.println("4. Wyloguj");
-        System.out.print("Wybierz opcję (1-4): ");
+        System.out.println("2. Przyjęcie wizyty");
+        System.out.println("3. Wyloguj");
+        System.out.print("Wybierz opcję (1-3): ");
         String line = scanner.nextLine().trim();
         try {
             return Integer.parseInt(line);

@@ -83,4 +83,12 @@
     <notes/>
     <status>oczekująca</status>
   </visit>
+<visit>
+    <username>klient</username>
+    <serviceType>Przegląd</serviceType>
+    <dateTime>2025-01-01 23:00</dateTime>
+    <contactInfo>123456789</contactInfo>
+    <notes>XD</notes>
+    <status>oczekująca</status>
+  </visit>
 </visits>
