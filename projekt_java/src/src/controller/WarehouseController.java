@@ -26,7 +26,6 @@ public class WarehouseController {
         this.scanner = scanner;
         this.view = new WarehouseView(scanner);
         try {
-            // Wczytanie dostępnych części oraz wizyt z XML
             this.partStore = new PartStore("parts.xml");
             this.visitStore = new VisitStore("visits.xml");
         } catch (Exception e) {
@@ -34,9 +33,6 @@ public class WarehouseController {
         }
     }
 
-    /**
-     * Główna pętla menu magazyniera.
-     */
     public void run(String username) {
         int choice;
         do {
@@ -57,22 +53,12 @@ public class WarehouseController {
         } while (choice != 4);
     }
 
-    /**
-     * Wyświetla wszystkie części dostępne w magazynie.
-     */
     private void displayInventory() {
         System.out.println("\n--- ZAWARTOŚĆ MAGAZYNU ---");
         for (Part p : partStore.getAllParts()) {
             System.out.println(p);
         }
     }
-
-    /**
-     * Obsługa przyjęcia wizyty:
-     * - wyświetla listę wizyt
-     * - pozwala wybrać wizytę
-     * - pozwala wybrać część i przypisuje ją (potwierdzenie w konsoli)
-     */
     private void handleVisit() {
         List<Visit> visits;
         try {
@@ -98,7 +84,6 @@ public class WarehouseController {
         }
         Visit selectedVisit = visits.get(vnum - 1);
 
-        // Teraz pozwalamy przypisać część do tej wizyty
         System.out.println("\n--- PRZYJĘCIE WIZYTY ---");
         System.out.println("Wybrana wizyta: ");
         System.out.println(selectedVisit.toString());
@@ -120,7 +105,6 @@ public class WarehouseController {
                 .findFirst()
                 .orElse(null);
         if (found != null) {
-            // tylko wypisujemy potwierdzenie – nie zmieniamy Visit ani XML
             System.out.printf("Przypisano część \"%s\" do wizyty klienta %s.%n",
                     found.toString(), selectedVisit.getUsername());
         } else {
@@ -128,9 +112,6 @@ public class WarehouseController {
         }
     }
 
-    /**
-     * Pomocnicza metoda do bezpiecznego parsowania int.
-     */
     private int parseInt() {
         try {
             return Integer.parseInt(scanner.nextLine().trim());
